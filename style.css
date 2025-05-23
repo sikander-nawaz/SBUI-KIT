@@ -12,3 +12,26 @@ main {
   /* min-height: 100vh; */
   flex: 1 0 auto;
 }
+
+#section1 {
+  background: #0575e6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #021b79, #0575e6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #021b79, #0575e6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  clip-path: polygon(
+    0 0,
+    0% 20%,
+    0 60%,
+    0 86%,
+    51% 100%,
+    100% 88%,
+    100% 71%,
+    100% 68%,
+    100% 0,
+    80% 0,
+    45% 0
+  );
+  min-height: 100vh;
+}
