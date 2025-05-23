@@ -47,3 +47,7 @@ main {
     0 0
   );
 }
+
+.box {
+  min-height: 300px;
+}
