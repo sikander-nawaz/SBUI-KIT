@@ -84,3 +84,12 @@ main {
     0% 20%
   );
 }
+
+.footer {
+  height: 40px;
+}
+
+.footer p,
+.footer .links {
+  line-height: 40px;
+}
